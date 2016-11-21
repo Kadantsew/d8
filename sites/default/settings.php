@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '2qzWyzDg8FtGQxmQGYUHymUWsGZj33cJcmwCUir0y7hwaOhaKw8-MJQcoJ3kOZXUvrNpfPUGIg';
+$settings['hash_salt'] = 'FgI34mLhzYKJ5VOrTEwyuiFQBF3TWQrIdYeh7HJQ0a2L2LN8ar1y_jYxexceRvanJ-QCOHeHaQ';
 
 /**
  * Deployment identifier.
@@ -749,11 +749,11 @@ $settings['file_scan_ignore_directories'] = [
  *
  * Keep this code block at the end of this file to take full effect.
  */
- if (file_exists(__DIR__ . '/settings.local.php')) {
-   include __DIR__ . '/settings.local.php';
- }
+# if (file_exists(__DIR__ . '/settings.local.php')) {
+#   include __DIR__ . '/settings.local.php';
+# }
 $databases['default']['default'] = array (
-  'database' => 'd8',
+  'database' => 'new_vk',
   'username' => 'root',
   'password' => '111',
   'prefix' => '',
@@ -763,4 +763,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_8FYUeZ9nZQsM1fo2JSxBtQDqT4pGS-jMBDsjvS7Qm4IvRwBxopFYQKJ75gdoX55Sqv2P3MZrJQ/sync';
+$config_directories['sync'] = 'sites/default/files/config_rIb8SWkypj9kEPbI-Fk_l6f8Iy9jxhFwI0Lq0txMo2-Drq-Xgf0kNsgF1BFKUvDKmn0vRNQOYQ/sync';
