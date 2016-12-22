@@ -24,8 +24,7 @@ ul.nice-menu li {
 
 ul.nice-menu a {
   display: block;
-  /*Default to Blue, but override as necessary*/
-  color: #027ac6;
+ 
 }
 
 ul.nice-menu ul,

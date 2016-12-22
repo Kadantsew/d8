@@ -7,6 +7,122 @@
 @import 'variables.less';
 @import 'bootswatch.less';
 
-footer {
-	background-color: #d6d6d6;
+@border: 1px solid rgba(255, 255, 255, 0.14);
+
+.glyphicon.glyphicon-menu-right {
+	color: green;
+}
+.header-cantainer {
+	max-width: 100%;
+	min-height: 820px;
+	background-image: url(../images/head.jpg);
+	background-size: cover;
+	
+	background-position: center center;
+	
+
+}
+.headerhead {
+
+	max-width: 100%;
+	min-height: 820px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+
+	.navbar-header {
+			vertical-align: middle;
+
+	}
+header#navbar.navbar.navbar-default.container {
+	background-color: inherit;
+	padding-top: 20px;
+	border: none;
+	border-bottom: @border;
+	vertical-align: middle;
+}
+.navbar.navbar-default.container {
+	width: 100%;
+}
+a.logo.navbar-btn.pull-left img {
+	width: 32px;
+
+}
+#block-nicemenus{
+	display: inline-block;
+	vertical-align: middle;
+}
+ul.nice-menu li, .menuparent.menu-item.menu-item--expanded {
+	background: inherit;
+	border: none;
+	margin: auto;
+	&:hover {
+		text-decoration: none;
+		background: inherit;
+	}
+	ul {
+		background-color: #000;
+		border: none;
+		&:before {
+			        border: 5px solid transparent;
+    border-bottom-color: #111111;
+    content: '';
+    display: block;
+    height: 0;
+    left: 50%;
+    position: absolute;
+    top: -10px;
+    transform: translateX(-50%);
+    width: 0;
+
+		}
+	}
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+}
+}
+#block-new-subtheme-search {
+	max-width: 20%;
+	background: none;
+	float: right;
+    position: relative;
+    right: 0;
+   // top: 0;
+	.input-group{
+		border: @border;
+		border-radius: 20px; 
+		#edit-keys {
+		background: inherit;
+		outline: none;
+		border: none;
+		}
+		.btn-primary {
+			background: inherit;
+			border: none;
+		}
+	}
+}
+
+.path-frontpage {
+	font-family: 'Poppins', 'Arial', sans-serif;
+	.headerhead {
+		color: #fff;
+	}
+	h2.block-title {
+		text-align: center;
+		padding:20px;
+	}
+	div.view-header {
+		text-align: center;
+		padding:20px;
+	}
+	.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item.quickedit-field {
+		text-align: center;
+		padding: 20px;
+	}
+
+}
+.footer.container,.region.region-footer {
+	width: 100%;
+	background-color: #383c3f;
 }
