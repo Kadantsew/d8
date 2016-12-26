@@ -1,7 +1,7 @@
 global-styling:
   css:
     theme:
-      css/test.css: {}
+      css/style.css: {}
 
 bootstrap-scripts:
   js:
